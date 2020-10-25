@@ -5,4 +5,4 @@ jdk:
 
 script:
   - sbt run
-  - sbt 'set scalaVersion := dottyLatestNightlyBuild.get' run
+  - sbt 'set scalaVersion := 2.13.3' run
