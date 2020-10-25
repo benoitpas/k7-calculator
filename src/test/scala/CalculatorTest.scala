@@ -16,7 +16,7 @@ class CalculatorTest {
   }
 
   @Test def toCogs() : Unit = {
-    assertEquals(List(12, 13, 14, 17), Calculator.toCogs(12, List(1, 1, 4)))
+    assertEquals(List(12, 13, 14, 18), Calculator.toCogs(12, List(1, 1, 4)))
   }
 
 }
