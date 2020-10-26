@@ -1,8 +1,0 @@
-language: scala
-
-jdk:
-  - openjdk8
-
-script:
-  - sbt run
-  - sbt 'set scalaVersion := "2.13.3"' run
