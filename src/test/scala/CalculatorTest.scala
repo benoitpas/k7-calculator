@@ -19,4 +19,7 @@ class CalculatorTest {
     assertEquals(List(12, 13, 14, 18), Calculator.toCogs(12, List(1, 1, 4)))
   }
 
+  @Test def listBestK7() : Unit = {
+    assertEquals((0.04212070417570931,List(12, 14, 16, 18, 20, 22, 25, 28)), Calculator.listBestK7(12,28,8).head)
+  }
 }
