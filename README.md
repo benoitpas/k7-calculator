@@ -1,5 +1,7 @@
 # Computes the 'best' cog combination for a [bike cassette](https://www.sheldonbrown.com/k7.html)
 
+[![Scala CI](https://github.com/benoitpas/k7-calculator/actions/workflows/scala.yml/badge.svg)](https://github.com/benoitpas/k7-calculator/actions/workflows/scala.yml)
+
 Knowing the number of teeths of the smallest and largest cogs as well as the number of cogs, this program finds the best combination so that the 'jump' between cogs is as constant as possible.
 
 The evaluate if the percentage jump between cogs is as constant as possible, we compute the [Root mean square deviation](https://en.wikipedia.org/wiki/Root_mean_square) of the difference with the average jump.
